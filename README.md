@@ -3,8 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-#### _Read this in [other languages](translations/Translations.md)._
+#### _Read this in [other languages](translations/Translations.md)._  
 
+<kbd>[<img title="Wolof" alt="Wolof langage" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/sn.svg" width="22">](translations/README.sn.md)</kbd>
 <kbd>[<img title="Shqip" alt="Shqip" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/al.svg" width="22">](translations/README.al.md)</kbd>
 <kbd>[<img title="Armenian" alt="Armenian" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/am.svg" width="22">](translations/README.arm.md)</kbd>
 <kbd>[<img title="Uzbek" alt="Uzbek language" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/uz.svg" width="22">](translations/README.uz.md)</kbd>
@@ -82,133 +83,129 @@
 <kbd>[<img title="Ewe (TOGO)" alt="Ewe (TOGO)" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/tg.svg" width="22">](translations/README.ewe.md)</kbd>
 <kbd>[<img title="አማርኛ" alt="አማርኛ" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/et.svg" width="22">](translations/README.et.md)</kbd>
 
-# First Contributions
+# Ngënu Yi Damay Jàng
 
-This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
+Projet bi dafa néwul ak defar benn nekk, te day waxtu yi ñu nekk ci sa benn nekk. Si nga bëgg benn nekk yi, yàggal nga def ci def yi di namm.
 
-_If you're not comfortable with command line, [here are tutorials using GUI tools.](#tutorials-using-other-tools)_
+_Se nga amul nopp ci biiru limaay, [jëfandikoo yi am di xool](#tutorials-using-other-tools)._
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
 
-#### If you don't have git on your machine, [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).
+#### Bu xamul gi laay git la, [soppal sa yëggu](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
-## Fork this repository
+## Wu benn nekk ak bu yeesu
 
-Fork this repository by clicking on the fork button on the top of this page.
-This will create a copy of this repository in your account.
+Fork bi la, bëggee la dëkk ci nga amul ci tudd. Dinaa ko dëgg sa tudd, bukaan ci sa la, defaar lu tax ñu leen ci suuf.
 
-## Clone the repository
+## Tekki sa tudd
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
 
-Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
+Jëkk ci sa tudd fork ci yeesu bi. Gënaa ci sa kaar GitHub, bukaan sa tudd fork, bëggee ci ñoom yëngu, ak tuddu _kooy yëngu_ ñoom.
 
-Open a terminal and run the following git command:
+Bukaan terminal, di def ngir soppal git yi te def ci jëmaan :
 
 ```bash
-git clone "url you just copied"
+git clone "url nga bëggee ko copier"
+
 ```
 
-where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+koo "url nga bëggee kooy" (ci mbëggeet guddaaral) dafa bëggee kooy doomi bi (tuddu nga fork benn teeyaayu bu amul). Wone yëggeel taxaw yi ci nga amul ko.
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
-For example:
+Moom jëkk :
 
 ```bash
 git clone git@github.com:this-is-you/first-contributions.git
 ```
 
-where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
+koo `Iow-la` mu neexul sa ak sa yoon wi. Kii ngir këyni kopyu di sa tudd first-contributions ci GitHub ci jëmaan bi.
 
-## Create a branch
-
-Change to the repository directory on your computer (if you are not already there):
+Dëkkal bu branch
+Dinaa ci direktori sa tuddu ci jëmaan bi (ci benn neexul gi ci neexul):
 
 ```bash
 cd first-contributions
 ```
-
-Now create a branch using the `git switch` command:
+Bu dëkkal branch amul defoon `git switch` ci benn diër bi :
 
 ```bash
-git switch -c your-new-branch-name
+git switch -c sunu-branch-gi
 ```
 
-For example:
+Meune nagn wakh:
 
 ```bash
 git switch -c add-alonzo-church
 ```
 
-## Make necessary changes and commit those changes
-
-Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
+## Neexal téere ndimbalu ci sa ndimbal
+Bu jëfandikoo `Contributors.md` ci jëmëlu am nañu, def nañu ñoom ci.
+ Du la neex lu tax.
 
 <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
 
-If you go to the project directory and execute the command `git status`, you'll see there are changes.
+Yeneen jëkk ci kaw nit, te sa taxaw `git status`, ngir seen laaj bi.
 
-Add those changes to the branch you just created using the `git add` command:
+Sama saññaam yi bëgg nga neex ci sa branch nga defal ci jëmaan bi ci soppal  `git add` yi :
 
 ```bash
 git add Contributors.md
 ```
 
-Now commit those changes using the `git commit` command:
+Te bu yèneen dee jëkk yi ci soppal  `git commit` commit yi :
 
 ```bash
-git commit -m "Add your-name to Contributors list"
+git commit -m "Iow-mi ci list Contributors"
 ```
 
-replacing `your-name` with your name.
-
-## Push changes to GitHub
-
-Push your changes using the command `git push`:
+replacing  with your name.
+neexaal `Iow-mi` bi ak naari taxaw bu ñoom.
+## Déggal bu ñoomal ci GitHub
+Dëggee bu neexal ci soppal `git push`:
 
 ```bash
-git push -u origin your-branch-name
+git push -u origin  sunu-branch-gi
 ```
 
-replacing `your-branch-name` with the name of the branch you created earlier.
+Teemu `sunu-branch-gi` ci ngir dem di nañu. ngir saññaam ci amul li jëkk yi.
 
 <details>
-<summary> <strong>If you get any errors while pushing, click here:</strong> </summary>
+<summary> <strong>Si am nañu faatu ci dem ci, gu ñaari si:</strong> </summary>
 
 - ### Authentication Error
-     <pre>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
-  remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
-  fatal: Authentication failed for 'https://github.com/<your-username>/first-contributions.git/'</pre>
-  Go to [GitHub's tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on generating and configuring an SSH key to your account.
+     <pre>remote: Samay mbir ci àddax bi am na laa 13, 2021. Mën na ci amul dem ci ci biir. Nanga jëm si seen ci https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ nga meuna xam .
+  fatal: yakouna pour 'https://github.com/<your-username>/first-contributions.git/'</pre>
+  demal si [GitHub's tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on generating and configuring an SSH key to your account.
 
 </details>
 
 ## Submit your changes for review
 
-If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
+If you demal si sa repository si GitHub, dingua guiss `Compare & pull request` boutton. Click si button bobu.
 
 <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
 
-Now submit the pull request.
+legui nak nga diokhe pull request.
 
 <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
 
-Soon I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.
+Dinaa, da nga def ci sa doomu tëj gi ci takk bind dinañu. Da nga wone e-mail nataal ci sa doomu tëj gi ak saa yàpp.
 
-## Where to go from here?
+## lo beugue deffat?
 
-Congrats! You just completed the standard _fork -> clone -> edit -> pull request_ workflow that you'll often encounter as a contributor!
+Nobél! Tuuti def ci diggante fork -> clone -> baax -> yàllal seen tàll ci bayyi ci ñuul yéppa am ngaadu!
 
-Celebrate your contribution and share it with your friends and followers by going to [web app](https://firstcontributions.github.io/#social-share).
+Mbaa ngi jël ci diirim jëm ci rewum am ngool yépp. Yéewu ak sa xaleyi mën nga tàll ci suuf. [web app](https://firstcontributions.github.io/#social-share).
 
-You could join our slack team if you need any help or have any questions. [Join slack team](https://firstcontributors.slack.com/join/shared_invite/zt-29qhyr9lt-Bi7WLbgGIFqV7aCEG_grvg#/shared-invite/email).
+Waxnaa la kuy sangaani dëpp ci jëfandikukat ci bi nekk. Dafa néex nañu la, laajale ak nañu topp ci xëy. [Join slack team](https://firstcontributors.slack.com/join/shared_invite/zt-29qhyr9lt-Bi7WLbgGIFqV7aCEG_grvg#/shared-invite/email).
 
-Now let's get you started with contributing to other projects. We've compiled a list of projects with easy issues you can get started on. Check out [the list of projects in the web app](https://firstcontributions.github.io/#project-list).
+Xéw ci suñu bi nga jël leen bëgg ni jëfandikukat ci xëy yi. Am na nekk, mooy jëmmatu ngir jëfandikukat ci dëpp yi dafa yam. Daf maam ci  [the list of projects in the web app](https://firstcontributions.github.io/#project-list).
 
 ### [Additional material](additional-material/git_workflow_scenarios/additional-material.md)
 
-## Tutorials Using Other Tools
+## Fooyatidaayu Këru Jaaynditu Bummin Am Reewu Biir
 
 | <a href="gui-tool-tutorials/github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a> | <a href="gui-tool-tutorials/github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Visual_Studio_2017_Logo.svg" width="100"></a> | <a href="gui-tool-tutorials/gitkraken-tutorial.md"><img alt="GitKraken" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/gk-icon.png" width="100"></a> | <a href="gui-tool-tutorials/github-windows-vs-code-tutorial.md"><img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Visual_Studio_Code_1.18_icon.svg" width=100></a> | <a href="gui-tool-tutorials/sourcetree-macos-tutorial.md"><img alt="Sourcetree App" src="https://wac-cdn.atlassian.com/dam/jcr:81b15cde-be2e-4f4a-8af7-9436f4a1b431/Sourcetree-icon-blue.svg" width=100></a> | <a href="gui-tool-tutorials/github-windows-intellij-tutorial.md"><img alt="IntelliJ IDEA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/512px-IntelliJ_IDEA_Icon.svg.png" width=100></a> |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
